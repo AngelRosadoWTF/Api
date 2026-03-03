@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "name": "Monitor LED 24",
+      "sku": "MON-24-001",
+      "price": 3200.00,
+      "cost": 2500.00,
+      "description": "Monitor 24 pulgadas Full HD",
+      "type": "consu",
+      "active": true
+    },
+    {
+      "name": "Laptop Pro 14",
+      "sku": "LAP-14-001",
+      "price": 18500.00,
+      "cost": 16000.00,
+      "description": "Laptop 14 pulgadas 16GB RAM",
+      "type": "consu",
+      "active": true
+    },
+    {
+      "name": "Webcam HD W10",
+      "sku": "WEB-W10-001",
+      "price": 950.00,
+      "cost": 700.00,
+      "description": "Webcam HD con micrófono integrado",
+      "type": "consu",
+      "active": true
+    }
+  ]
+}

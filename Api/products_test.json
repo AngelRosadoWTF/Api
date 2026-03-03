@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "name": "Teclado Mecánico K68",
+      "sku": "TEC-K68",
+      "price": 899.99,
+      "cost": 620.00,
+      "description": "Teclado mecánico RGB switch blue",
+      "type": "consu",
+      "active": true
+    },
+    {
+      "name": "Mouse Gamer M5",
+      "sku": "MOU-M5",
+      "price": 499.50,
+      "cost": 310.25,
+      "description": "Mouse gamer 7 botones 12000 DPI",
+      "type": "consu",
+      "active": true
+    },
+    {
+      "name": "Audífonos Pro H9",
+      "sku": "AUD-H9",
+      "price": 1299.00,
+      "cost": 890.00,
+      "description": "Audífonos over-ear con micrófono",
+      "type": "consu",
+      "active": true
+    }
+  ]
+}

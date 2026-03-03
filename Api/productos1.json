@@ -1,0 +1,13 @@
+{
+  "products": [
+    {
+      "name": "Producto X",
+      "sku": "SKU-X",
+      "price": 150.0,
+      "cost": 90.0,
+      "description": "Descripción",
+      "type": "consu",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+odoo
+http://localhost:8069/
+master: md8e-w9em-p9f3
+db: db-examen
+mail: emicamposdaguer@gmail.com
+
+
+usuario_api
+1234
+clave api: c2a2bafaafa1c25f36e3e70f118248d78efd3dea
+
+prestashop
+
+http://localhost:8080/admin653dnzgp4o2kyhwzcmt
+
+api-key:SAJBVTXIKZU25UDEWZH4HXAPMESIGGMG
+
+demo@prestashop.com
+psw:prestashop_demo

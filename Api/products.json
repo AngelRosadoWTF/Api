@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Producto Demo 1",
+      "sku": "DEMO-001",
+      "price": 120.50,
+      "cost": 70.25,
+      "description": "Producto de prueba para integración",
+      "type": "consu",
+      "active": true
+    },
+    {
+      "name": "Producto Demo 2",
+      "sku": "DEMO-002",
+      "price": 240.00,
+      "cost": 150.00,
+      "description": "Segundo producto de prueba",
+      "type": "consu",
+      "active": true
+    }
+  ]
+}

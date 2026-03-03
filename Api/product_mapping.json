@@ -1,0 +1,28 @@
+{
+  "products": {
+    "7": {
+      "odoo_id": 7,
+      "prestashop_id": 26,
+      "reference": "MON-24-001",
+      "name": "Monitor LED 24",
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T07:53:58.475954+00:00"
+    },
+    "8": {
+      "odoo_id": 8,
+      "prestashop_id": 27,
+      "reference": "LAP-14-001",
+      "name": "Laptop Pro 14",
+      "last_action": "created",
+      "last_sync_at": "2026-03-03T07:53:25.225548+00:00"
+    },
+    "9": {
+      "odoo_id": 9,
+      "prestashop_id": 28,
+      "reference": "WEB-W10-001",
+      "name": "Webcam HD W10",
+      "last_action": "created",
+      "last_sync_at": "2026-03-03T07:53:25.374032+00:00"
+    }
+  }
+}

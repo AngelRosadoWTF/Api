@@ -1,0 +1,17 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Touch89",email = "142188965+Touch89@users.noreply.github.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.135.1,<0.136.0)",
+    "uvicorn[standard] (>=0.41.0,<0.42.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,141 @@
+FLUJO MÍNIMO (3 PASOS)
+1) JSON -> Odoo:
+poetry run python import_products_to_odoo.py --json productos1.json
+
+2) Levantar API:
+poetry run uvicorn main:app --reload
+
+3) Enviar Odoo -> PrestaShop (OBLIGATORIO):
+$body = @{ limit = 20 } | ConvertTo-Json
+Invoke-RestMethod -Method Post -Uri "http://127.0.0.1:8000/sync/odoo-to-prestashop" -ContentType "application/json" -Body $body | ConvertTo-Json -Depth 10
+
+Nota:
+Los pasos 1 y 2 NO envían a PrestaShop por sí solos.
+
+ENDPOINTS DEL FLUJO SOLICITADO:
+1) Crear productos (GET):
+GET http://127.0.0.1:8000/flow/create-products?limit=20
+
+2) Crear producto por referencia (GET by reference):
+GET http://127.0.0.1:8000/flow/create-product/by-reference/SKU-X
+
+3) Actualizar producto en PrestaShop (GET by reference):
+GET http://127.0.0.1:8000/flow/update-product/by-reference/SKU-X
+
+4) Desactivar producto en PrestaShop (GET by reference):
+GET http://127.0.0.1:8000/flow/deactivate-product/by-reference/SKU-X
+
+4.1) Desactivar producto en ambas (Odoo + PrestaShop):
+GET http://127.0.0.1:8000/flow/deactivate-product/both/by-reference/SKU-X
+
+4.2) Reactivar producto en ambas (Odoo + PrestaShop):
+GET http://127.0.0.1:8000/flow/activate-product/both/by-reference/SKU-X
+
+5) Obtener órdenes de PrestaShop (GET):
+GET http://127.0.0.1:8000/prestashop/orders?limit=20
+
+correr script python (json -> odoo):
+poetry run python import_products_to_odoo.py --json productos1.json
+
+levantar la API:
+poetry run uvicorn main:app --reload
+
+===================================================
+CONSULTAR ENDPOINTS EN TERMINAL (POWERSHELL)
+===================================================
+
+(en otra terminal) verificar productos de odoo por API:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/products?limit=20" | ConvertTo-Json -Depth 8
+
+nuevos endpoints Odoo:
+obtener ordenes:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/orders?limit=20" | ConvertTo-Json -Depth 10
+
+obtener clientes:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/customers?limit=20" | ConvertTo-Json -Depth 10
+
+obtener proveedores:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/vendors?limit=20" | ConvertTo-Json -Depth 10
+
+obtener pagos:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/payments?limit=20" | ConvertTo-Json -Depth 10
+
+obtener producto por SKU/CLAVE:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/products/by-sku/SKU-X" | ConvertTo-Json -Depth 10
+
+obtener orden por REFERENCE:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/odoo/orders/by-reference/S00001" | ConvertTo-Json -Depth 10
+
+(en otra terminal) verificar productos de prestashop por API:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/prestashop/products?limit=20" | ConvertTo-Json -Depth 10
+
+obtener ordenes prestashop:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/prestashop/orders?limit=20" | ConvertTo-Json -Depth 10
+
+obtener clientes prestashop:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/prestashop/customers?limit=20" | ConvertTo-Json -Depth 10
+
+obtener orden prestashop por REFERENCE:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/prestashop/orders/by-reference/REFERENCIA" | ConvertTo-Json -Depth 10
+
+sincronizar odoo -> prestashop:
+$body = @{ limit = 20 } | ConvertTo-Json
+Invoke-RestMethod -Method Post -Uri "http://127.0.0.1:8000/sync/odoo-to-prestashop" -ContentType "application/json" -Body $body | ConvertTo-Json -Depth 10
+
+resultado esperado al sincronizar:
+- synced > 0 si crea nuevos en prestashop
+- updated > 0 si ya existían (upsert)
+- errors debe venir []
+
+ver trazabilidad de sincronizaciones:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/sync/logs?limit=20" | ConvertTo-Json -Depth 10
+
+ver mapeo persistente odoo<->prestashop:
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/sync/mappings?limit=20" | ConvertTo-Json -Depth 10
+
+
+variables opcionales en .env para robustez:
+PRESTASHOP_RETRIES=2
+PRESTASHOP_TIMEOUT=30
+
+
+===================================================
+CONSULTAR ENDPOINTS EN POSTMAN
+===================================================
+
+base URL:
+http://127.0.0.1:8000
+
+headers para requests POST:
+Content-Type: application/json
+
+GET /odoo/products?limit=20
+GET /odoo/orders?limit=20
+GET /odoo/customers?limit=20
+GET /odoo/vendors?limit=20
+GET /odoo/payments?limit=20
+GET /odoo/products/by-sku/SKU-X
+GET /odoo/orders/by-reference/S00001
+
+POST /odoo/import-products
+Body (raw JSON):
+{
+	"json_path": "productos1.json"
+}
+
+GET /prestashop/products?limit=20
+GET /prestashop/orders?limit=20
+GET /prestashop/customers?limit=20
+GET /prestashop/orders/by-reference/REFERENCIA
+
+POST /sync/odoo-to-prestashop
+Body (raw JSON):
+{
+	"limit": 20
+}
+
+GET /sync/logs?limit=20
+GET /sync/mappings?limit=20
+
+
+
