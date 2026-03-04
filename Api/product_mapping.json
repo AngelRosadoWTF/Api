@@ -2,35 +2,35 @@
   "products": {
     "7": {
       "odoo_id": 7,
-      "prestashop_id": 26,
-      "reference": "MON-24-001",
-      "name": "Monitor LED 24",
-      "last_action": "updated",
-      "last_sync_at": "2026-03-03T07:53:58.475954+00:00"
+      "prestashop_id": 44,
+      "reference": "FURN_9999",
+      "name": "Office Design Software",
+      "last_action": "created",
+      "last_sync_at": "2026-03-03T23:35:38.695477+00:00"
     },
     "8": {
       "odoo_id": 8,
-      "prestashop_id": 27,
-      "reference": "LAP-14-001",
-      "name": "Laptop Pro 14",
+      "prestashop_id": 45,
+      "reference": "FURN_7800",
+      "name": "Desk Combination",
       "last_action": "created",
-      "last_sync_at": "2026-03-03T07:53:25.225548+00:00"
+      "last_sync_at": "2026-03-03T23:35:39.000326+00:00"
     },
     "9": {
       "odoo_id": 9,
       "prestashop_id": 28,
-      "reference": "WEB-W10-001",
-      "name": "Webcam HD W10",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T07:53:25.374032+00:00"
+      "reference": false,
+      "name": "Customizable Desk",
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:21.819213+00:00"
     },
     "1": {
       "odoo_id": 1,
       "prestashop_id": 22,
       "reference": false,
       "name": "Restaurant Expenses",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:01.616394+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:20.263806+00:00"
     },
     "2": {
       "odoo_id": 2,
@@ -38,7 +38,7 @@
       "reference": false,
       "name": "Hotel Accommodation",
       "last_action": "updated",
-      "last_sync_at": "2026-03-03T20:21:01.884077+00:00"
+      "last_sync_at": "2026-03-03T23:19:20.492090+00:00"
     },
     "3": {
       "odoo_id": 3,
@@ -46,7 +46,7 @@
       "reference": false,
       "name": "Virtual Interior Design",
       "last_action": "updated",
-      "last_sync_at": "2026-03-03T20:21:02.133478+00:00"
+      "last_sync_at": "2026-03-03T23:19:20.733078+00:00"
     },
     "4": {
       "odoo_id": 4,
@@ -54,71 +54,71 @@
       "reference": false,
       "name": "Virtual Home Staging",
       "last_action": "updated",
-      "last_sync_at": "2026-03-03T20:21:02.348346+00:00"
+      "last_sync_at": "2026-03-03T23:19:20.915512+00:00"
     },
     "5": {
       "odoo_id": 5,
       "prestashop_id": 23,
       "reference": "FURN_7777",
       "name": "Office Chair",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:02.636825+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:21.108932+00:00"
     },
     "6": {
       "odoo_id": 6,
       "prestashop_id": 24,
       "reference": "FURN_8888",
       "name": "Office Lamp",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:02.916705+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:21.286286+00:00"
     },
     "10": {
       "odoo_id": 10,
       "prestashop_id": 25,
       "reference": "E-COM06",
       "name": "Corner Desk Right Sit",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:03.303761+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:21.982007+00:00"
     },
     "11": {
       "odoo_id": 11,
       "prestashop_id": 26,
       "reference": "E-COM07",
       "name": "Large Cabinet",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:03.568306+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:22.150084+00:00"
     },
     "12": {
       "odoo_id": 12,
       "prestashop_id": 27,
       "reference": "E-COM08",
       "name": "Storage Box",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:03.816460+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:22.319926+00:00"
     },
     "13": {
       "odoo_id": 13,
       "prestashop_id": 28,
       "reference": "E-COM09",
       "name": "Large Desk",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:04.088851+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:22.476038+00:00"
     },
     "14": {
       "odoo_id": 14,
       "prestashop_id": 29,
       "reference": "E-COM10",
       "name": "Pedal Bin",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:04.365185+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:22.664835+00:00"
     },
     "15": {
       "odoo_id": 15,
       "prestashop_id": 30,
       "reference": "E-COM11",
       "name": "Cabinet with Doors",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:04.660049+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:22.821829+00:00"
     },
     "16": {
       "odoo_id": 16,
@@ -126,103 +126,111 @@
       "reference": false,
       "name": "Conference Chair",
       "last_action": "updated",
-      "last_sync_at": "2026-03-03T20:21:04.885284+00:00"
+      "last_sync_at": "2026-03-03T23:19:22.976551+00:00"
     },
     "17": {
       "odoo_id": 17,
       "prestashop_id": 31,
       "reference": "FURN_0269",
       "name": "Office Chair Black",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:05.150838+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:23.150702+00:00"
     },
     "18": {
       "odoo_id": 18,
       "prestashop_id": 32,
       "reference": "FURN_1118",
       "name": "Corner Desk Left Sit",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:05.422495+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:23.314439+00:00"
     },
     "19": {
       "odoo_id": 19,
       "prestashop_id": 33,
       "reference": "FURN_8900",
       "name": "Drawer Black",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:05.686935+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:23.463338+00:00"
     },
     "20": {
       "odoo_id": 20,
       "prestashop_id": 34,
       "reference": "FURN_9001",
       "name": "Flipover",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:05.931590+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:23.655953+00:00"
     },
     "21": {
       "odoo_id": 21,
       "prestashop_id": 35,
       "reference": "FURN_7888",
       "name": "Desk Stand with Screen",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:06.168467+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:23.829337+00:00"
     },
     "22": {
       "odoo_id": 22,
       "prestashop_id": 36,
       "reference": "FURN_0789",
       "name": "Individual Workplace",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:06.411200+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:24.017626+00:00"
     },
     "23": {
       "odoo_id": 23,
       "prestashop_id": 37,
       "reference": "FURN_6666",
       "name": "Acoustic Bloc Screens",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:06.696661+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:24.167215+00:00"
     },
     "24": {
       "odoo_id": 24,
       "prestashop_id": 38,
       "reference": "FURN_8855",
       "name": "Drawer",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:06.966400+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:24.355146+00:00"
     },
     "25": {
       "odoo_id": 25,
       "prestashop_id": 39,
       "reference": "FURN_8220",
       "name": "Four Person Desk",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:07.234325+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:24.508006+00:00"
     },
     "26": {
       "odoo_id": 26,
       "prestashop_id": 40,
       "reference": "FURN_6741",
       "name": "Large Meeting Table",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:07.486729+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:24.682158+00:00"
     },
     "27": {
       "odoo_id": 27,
       "prestashop_id": 41,
       "reference": "FURN_8999",
       "name": "Three-Seat Sofa",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:07.799772+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:24.853179+00:00"
     },
     "28": {
       "odoo_id": 28,
       "prestashop_id": 42,
       "reference": "FURN_5555",
       "name": "Cable Management Box",
-      "last_action": "created",
-      "last_sync_at": "2026-03-03T20:21:08.090293+00:00"
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:19:25.025415+00:00"
+    },
+    "29": {
+      "odoo_id": 29,
+      "prestashop_id": 43,
+      "reference": "SKU-X",
+      "name": "Producto X",
+      "last_action": "updated",
+      "last_sync_at": "2026-03-03T23:36:48.265788+00:00"
     }
   }
 }
