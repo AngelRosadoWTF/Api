@@ -30,7 +30,7 @@
       "reference": false,
       "name": "Restaurant Expenses",
       "last_action": "updated",
-      "last_sync_at": "2026-03-04T00:44:46.407867+00:00"
+      "last_sync_at": "2026-03-04T02:09:32.632392+00:00"
     },
     "2": {
       "odoo_id": 2,
@@ -38,7 +38,7 @@
       "reference": false,
       "name": "Hotel Accommodation",
       "last_action": "updated",
-      "last_sync_at": "2026-03-04T00:44:46.573732+00:00"
+      "last_sync_at": "2026-03-04T02:09:32.873969+00:00"
     },
     "3": {
       "odoo_id": 3,
@@ -46,7 +46,7 @@
       "reference": false,
       "name": "Virtual Interior Design",
       "last_action": "updated",
-      "last_sync_at": "2026-03-04T00:44:46.738151+00:00"
+      "last_sync_at": "2026-03-04T02:09:33.112657+00:00"
     },
     "4": {
       "odoo_id": 4,
@@ -54,7 +54,7 @@
       "reference": false,
       "name": "Virtual Home Staging",
       "last_action": "updated",
-      "last_sync_at": "2026-03-04T00:44:46.919165+00:00"
+      "last_sync_at": "2026-03-04T02:09:33.333417+00:00"
     },
     "5": {
       "odoo_id": 5,
@@ -255,6 +255,30 @@
       "name": "Producto 3",
       "last_action": "created",
       "last_sync_at": "2026-03-04T00:44:51.380976+00:00"
+    },
+    "34": {
+      "odoo_id": 34,
+      "prestashop_id": 49,
+      "reference": "COD1",
+      "name": "MSI Laptop",
+      "last_action": "created",
+      "last_sync_at": "2026-03-04T02:09:33.644879+00:00"
+    },
+    "35": {
+      "odoo_id": 35,
+      "prestashop_id": 50,
+      "reference": "COD2",
+      "name": "Macbook Pro 14",
+      "last_action": "created",
+      "last_sync_at": "2026-03-04T02:09:33.954603+00:00"
+    },
+    "36": {
+      "odoo_id": 36,
+      "prestashop_id": 51,
+      "reference": "COD3",
+      "name": "Camara",
+      "last_action": "created",
+      "last_sync_at": "2026-03-04T02:09:34.259363+00:00"
     }
   }
 }
