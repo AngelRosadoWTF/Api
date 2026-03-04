@@ -1,29 +1,29 @@
 {
   "products": [
     {
-      "name": "Monitor LED 24",
-      "sku": "MON-24-001",
+      "name": "MSI Laptop",
+      "sku": "COD1",
       "price": 3200.00,
       "cost": 2500.00,
-      "description": "Monitor 24 pulgadas Full HD",
+      "description": "Laptop MSI con procesador Intel i7",
       "type": "consu",
       "active": true
     },
     {
-      "name": "Laptop Pro 14",
-      "sku": "LAP-14-001",
+      "name": "Macbook Pro 14",
+      "sku": "COD2",
       "price": 18500.00,
       "cost": 16000.00,
-      "description": "Laptop 14 pulgadas 16GB RAM",
+      "description": "Macbook Pro de 14 pulgadas con chip M1 Pro",
       "type": "consu",
       "active": true
     },
     {
-      "name": "Webcam HD W10",
-      "sku": "WEB-W10-001",
+      "name": "Camara",
+      "sku": "COD3",
       "price": 950.00,
       "cost": 700.00,
-      "description": "Webcam HD con micrófono integrado",
+      "description": "Camara",
       "type": "consu",
       "active": true
     }
